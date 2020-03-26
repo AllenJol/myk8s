@@ -19,4 +19,4 @@
 
 > * 如需更换版本，请更改 Dokerfile 文件
 > * Makefile和Dockerfile放在同一个层级。构建镜像的时候直接利用Makefile进行构建。方法如下：
-> * Makefile使用参考地址：`https://www.cnblogs.com/woshimrf/p/make-docker.html`
+> * [Makefile使用参考地址：] (https://www.cnblogs.com/woshimrf/p/make-docker.html)
