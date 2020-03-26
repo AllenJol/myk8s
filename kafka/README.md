@@ -15,4 +15,6 @@ Makefile和Dockerfile放在同一个层级。构建镜像的时候直接利用Ma
 
 Makefile使用参考地址：`https://www.cnblogs.com/woshimrf/p/make-docker.html`
 
-相关的jdk包和kafka的包可以自行下载。这里由于包太大，我就不贴出来了
+1.相关的jdk包和kafka的包可以自行下载。这里由于包太大，我就不贴出来了
+2.`registry.cn-hangzhou.aliyuncs.com/allenjol_containers/centos:7.4.1708`为
+我个人阿里云私有镜像仓库中放的centos镜像。具体可改成你们自己的centos镜像
