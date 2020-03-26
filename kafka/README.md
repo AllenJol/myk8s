@@ -1,6 +1,8 @@
 这里存放了关于构建kafka镜像的文件
 
 当前kafka版本：`kafka_2.11-0.10.2.0.tgz`
+当前JDK版本：`jdk-8u161-linux-x64.tar.gz`
+
 如需更换版本，请更改 Dokerfile 文件
 
 Makefile和Dockerfile放在同一个层级。构建镜像的时候直接利用Makefile进行构建。方法如下：
